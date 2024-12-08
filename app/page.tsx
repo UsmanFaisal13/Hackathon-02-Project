@@ -20,10 +20,10 @@ export default function Home() {
         <div className="h-full flex justify-center items-center">
           <nav>
             <ul className="flex gap-10 justify-center items-center">
-              <Link href={'/'}><Image src={'/account.svg'} width={28} height={28}></Image></Link>
-              <Link href={'/'}><Image src={'/search.svg'} width={28} height={28}></Image></Link>
-              <Link href={'/'}><Image src={'/like.svg'} width={28} height={28}></Image></Link>
-              <Link href={'/'}><Image src={'/cart.svg'} width={28} height={28}></Image></Link>
+              <Link href={'/'}><Image src={'/account.svg'} width={28} height={28} alt='image'></Image></Link>
+              <Link href={'/'}><Image src={'/search.svg'} width={28} height={28} alt='image'></Image></Link>
+              <Link href={'/'}><Image src={'/like.svg'} width={28} height={28} alt='image'></Image></Link>
+              <Link href={'/'}><Image src={'/cart.svg'} width={28} height={28} alt='image'></Image></Link>
 
             </ul>
           </nav>
@@ -38,13 +38,13 @@ export default function Home() {
           <button className="border-b-2 border-b-neutral-950 h-8">Shop Now</button>
         </div>
 
-        <Image src={'/rocket.png'} width={853} height={1000}></Image>
+        <Image src={'/rocket.png'} width={853} height={1000} alt='image'> </Image>
 
 
       </section>
       <section className='flex w-full h-[672px] bg-[#f4f4f4] justify-center items-center gap-32'>
         <div className='w-[500px] h-[500px] flex flex-col'>
-          <Image src={'/granite-table.png'} width={500} height={500} className='p-0'></Image>
+          <Image src={'/granite-table.png'} width={500} height={500} className='p-0' alt='image'></Image>
           <div className='flex flex-col gap-6 relative bottom-40 left-10'>
             <h1 className='text-4xl font-medium'>Side table</h1>
             <Link href={'/'}> <button className='border-b-2 border-b-neutral-950 h-12 font-medium text-2xl'>
@@ -53,7 +53,7 @@ export default function Home() {
           </div>
         </div>
         <div className='w-[500px] h-[500px]  flex flex-col'>
-          <Image src={'/cloud-sofa.png'} width={500} height={500} className='p-0'></Image>
+          <Image src={'/cloud-sofa.png'} width={500} height={500} className='p-0' alt='image'></Image>
           <div className='flex flex-col gap-6 relative bottom-32 left-10'>
             <h1 className='text-4xl font-medium'>Side table</h1>
             <Link href={'/'}> <button className='border-b-2 border-b-neutral-950 h-12 font-medium text-2xl'>
@@ -70,7 +70,7 @@ export default function Home() {
         <div className='flex items-center justify-center gap-12 pt-16'>
           <div className='flex flex-col w-72 h-96 justify-center'>
             <div className='w-[300px] h-[300px] flex justify-center items-center'>
-              <Image src={'/sofa_2.png'} width={400} height={400}></Image>
+              <Image src={'/sofa_2.png'} width={400} height={400} alt='image'></Image>
             </div>
 
             <h1>Trenton modular sofa_3</h1>
@@ -79,7 +79,7 @@ export default function Home() {
 
           </div>
           <div className='flex flex-col w-72 h-96 justify-center '>
-            <div className='w-[300px] h-[300px] flex justify-center items-center'> <Image src={'/dinner-table.png'} width={300} height={300}></Image></div>
+            <div className='w-[300px] h-[300px] flex justify-center items-center'> <Image src={'/dinner-table.png'} alt='image' width={300} height={300}></Image></div>
 
             <h1 >Granite dining table with dining chair</h1>
             <h1 className='font-medium text-2xl pt-2'>Rs. 25,000.00</h1>
@@ -88,7 +88,7 @@ export default function Home() {
           </div>
           <div className='flex flex-col w-72 h-96 justify-center '>
             <div className='w-[300px] h-[300px] flex justify-center items-center'>
-              <Image src={'/stool.png'} width={400} height={400}></Image>
+              <Image src={'/stool.png'} width={400} height={400} alt='image'></Image>
             </div>
             <h1>Outdoor bar table and stool</h1>
             <h1 className='font-medium text-2xl pt-2'>Rs. 25,000.00</h1>
@@ -97,7 +97,7 @@ export default function Home() {
           </div>
           <div className='flex flex-col w-72 h-96 justify-center'>
             <div className='w-[300px] h-[300px] flex justify-center items-center'>
-              <Image src={'/mirror.png'} width={400} height={400}></Image>
+              <Image src={'/mirror.png'} width={400} height={400} alt='image'></Image>
             </div>
             <h1>Plain console with teak mirror</h1>
             <h1 className='font-medium text-2xl pt-2'>Rs. 25,000.00</h1>
@@ -112,7 +112,7 @@ export default function Home() {
 
       </section>
       <section className='flex w-full h-[777px] bg-[#FFF9E5] justify-center items- gap-32'>
-        <Image src={'/asgaard.png'} width={900} height={800}></Image>
+        <Image src={'/asgaard.png'} width={900} height={800} alt='image'></Image>
         <div className='flex flex-col gap-6 items-center justify-center'>
           <h1 className='text-2xl font-medium'>New Arrivals</h1>
           <h1 className='text-5xl font-bold pb-8'>Asgaard sofa</h1>
@@ -126,22 +126,22 @@ export default function Home() {
         <p className='text-[#9f9f9f] font-medium'>Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</p>
         <div className='flex justify-center gap-12 pt-16 items-center'>
           <div className='flex flex-col w-72 h-96 justify-center items-center'>
-            <Image src={'/blog-1.png'} width={400} height={400}></Image>
+            <Image src={'/blog-1.png'} width={400} height={400} alt='blog'></Image>
             <h1 className='pt-8'>Going all-in with millennial design</h1>
             <Link href={'/'}><button className='text-2xl font-medium border-b-2 border-black h-12'>Read More</button></Link>
-            <Image src={'/time.png'} width={200} height={100} className='pt-4'></Image>
+            <Image src={'/time.png'} width={200} height={100} className='pt-4' alt='blog'></Image>
           </div>
           <div className='flex flex-col w-72 h-96 justify-center items-center'>
-            <Image src={'/blog-2.png'} width={400} height={400}></Image>
+            <Image src={'/blog-2.png'} width={400} height={400} alt='blog'></Image>
             <h1 className='pt-8'>Going all-in with millennial design</h1>
             <Link href={'/'}><button className='text-2xl font-medium border-b-2 border-black h-12'>Read More</button></Link>
-            <Image src={'/time.png'} width={200} height={100} className='pt-4'></Image>
+            <Image src={'/time.png'} width={200} height={100} className='pt-4' alt='blog'></Image>
           </div>
           <div className='flex flex-col w-72 h-96 justify-center items-center'>
-            <Image src={'/blog-3.png'} width={400} height={400}></Image>
+            <Image src={'/blog-3.png'} width={400} height={400} alt='blog'></Image>
             <h1 className='pt-8'>Going all-in with millennial design</h1>
             <Link href={'/'}><button className='text-2xl font-medium border-b-2 border-black h-12'>Read More</button></Link>
-            <Image src={'/time.png'} width={200} height={100} className='pt-4'></Image>
+            <Image src={'/time.png'} width={200} height={100} className='pt-4' alt='icon'></Image>
           </div>
 
         </div>

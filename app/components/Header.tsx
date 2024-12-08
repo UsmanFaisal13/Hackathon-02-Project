@@ -20,10 +20,10 @@ const Header = () => {
             <div className="h-full flex justify-center items-center">
                 <nav>
                     <ul className="flex gap-10 justify-center items-center">
-                        <Link href={'/'}><Image src={'/account.svg'} width={28} height={28}></Image></Link>
-                        <Link href={'/'}><Image src={'/search.svg'} width={28} height={28}></Image></Link>
-                        <Link href={'/'}><Image src={'/like.svg'} width={28} height={28}></Image></Link>
-                        <Link href={'/'}><Image src={'/cart.svg'} width={28} height={28}></Image></Link>
+                        <Link href={'/'}><Image src={'/account.svg'} width={28} height={28} alt='icon'></Image></Link>
+                        <Link href={'/'}><Image src={'/search.svg'} width={28} height={28} alt='icon'></Image></Link>
+                        <Link href={'/'}><Image src={'/like.svg'} width={28} height={28} alt='icon'></Image></Link>
+                        <Link href={'/'}><Image src={'/cart.svg'} width={28} height={28} alt='icon'></Image></Link>
 
                     </ul>
                 </nav>
