@@ -112,7 +112,7 @@ export default function Home() {
 
       </section>
       <section className='flex w-full h-[777px] bg-[#FFF9E5] justify-center items- gap-32'>
-        <Image src={'/asgaard.png'} width={900} height={800} alt='image' />
+        <Image src={'/asgaard.png'} width={700} height={700} alt='image' />
         <div className='flex flex-col gap-6 items-center justify-center'>
           <h1 className='text-2xl font-medium'>New Arrivals</h1>
           <h1 className='text-5xl font-bold pb-8'>Asgaard sofa</h1>
