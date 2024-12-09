@@ -11,19 +11,19 @@ export default function Home() {
           <nav>
             <ul className="flex gap-16 justify-center items-center font-medium text-base">
               <Link href={'/'}>Home</Link>
-              <Link href={'/'}>Shop</Link>
-              <Link href={'/'}>About</Link>
-              <Link href={'/'}>Contact</Link>
+              <Link href={'/shop'}>Shop</Link>
+              <Link href={'/about'}>About</Link>
+              <Link href={'/contact'}>Contact</Link>
             </ul>
           </nav>
         </div>
         <div className="h-full flex justify-center items-center">
           <nav>
             <ul className="flex gap-10 justify-center items-center">
-              <Link href={'/'}><Image src={'/account.svg'} width={28} height={28} alt='image' /></Link>
+              <Link href={'/account'}><Image src={'/account.svg'} width={28} height={28} alt='image' /></Link>
               <Link href={'/'}><Image src={'/search.svg'} width={28} height={28} alt='image' /></Link>
               <Link href={'/'}><Image src={'/like.svg'} width={28} height={28} alt='image' /></Link>
-              <Link href={'/'}><Image src={'/cart.svg'} width={28} height={28} alt='image' /></Link>
+              <Link href={'/cart'}><Image src={'/cart.svg'} width={28} height={28} alt='image' /></Link>
 
             </ul>
           </nav>
@@ -32,7 +32,7 @@ export default function Home() {
 
       </header>
 
-      <section className='w-full h-[900px] bg-[#FBEBB5] flex justify-center pl-14 items-center'>
+      <section className='w-full h-[900px] flex-wrap bg-[#FBEBB5] flex justify-center pl-14 items-center'>
         <div className='flex flex-col gap-8 justtify-center items-start font-medium'>
           <h1 className='text-[64px] font-medium'>Rocket single <br />seater</h1>
           <button className="border-b-2 border-b-neutral-950 h-8">Shop Now</button>
@@ -42,7 +42,7 @@ export default function Home() {
 
 
       </section>
-      <section className='flex w-full h-[672px] bg-[#f4f4f4] justify-center items-center gap-32'>
+      <section className='flex w-full h-[672px] flex-wrap bg-[#f4f4f4] justify-center items-center gap-32'>
         <div className='w-[500px] h-[500px] flex flex-col'>
           <Image src={'/granite-table.png'} width={500} height={500} className='p-0' alt='image' />
           <div className='flex flex-col gap-6 relative bottom-40 left-10'>
@@ -52,7 +52,7 @@ export default function Home() {
 
           </div>
         </div>
-        <div className='w-[500px] h-[500px]  flex flex-col'>
+        <div className='w-[500px] h-[500px] flex flex-col'>
           <Image src={'/cloud-sofa.png'} width={500} height={500} className='p-0' alt='image' />
           <div className='flex flex-col gap-6 relative bottom-32 left-10'>
             <h1 className='text-4xl font-medium'>Side table</h1>
@@ -64,7 +64,7 @@ export default function Home() {
 
 
       </section>
-      <section className='flex w-full h-[877px] bg-[#ffffff] flex-col items-center'>
+      <section className='flex w-full h-[877px] bg-[#ffffff] flex-col flex-wrap items-center'>
         <h1 className='font-medium text-4xl pt-16 pb-8'>Top Picks For You</h1>
         <p className='text-[#9f9f9f] font-medium'>Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</p>
         <div className='flex items-center justify-center gap-12 pt-16'>
@@ -111,7 +111,7 @@ export default function Home() {
 
 
       </section>
-      <section className='flex w-full h-[777px] bg-[#FFF9E5] justify-center items- gap-32'>
+      <section className='flex w-full h-[777px] bg-[#FFF9E5] justify-center items- gap-32 flex-wrap'>
         <Image src={'/asgaard.png'} width={700} height={700} alt='image' />
         <div className='flex flex-col gap-6 items-center justify-center'>
           <h1 className='text-2xl font-medium'>New Arrivals</h1>
@@ -124,7 +124,7 @@ export default function Home() {
       <section className='flex flex-col w-full h-[844px] bg-[#FFFfff] items-center'>
         <h1 className='font-medium text-4xl pt-16 pb-8'>Our Blogs</h1>
         <p className='text-[#9f9f9f] font-medium'>Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</p>
-        <div className='flex justify-center gap-12 pt-16 items-center'>
+        <div className='flex justify-center gap-12 pt-16 items-center flex-wrap'>
           <div className='flex flex-col w-72 h-96 justify-center items-center'>
             <Image src={'/blog-1.png'} width={400} height={400} alt='blog' />
             <h1 className='pt-8'>Going all-in with millennial design</h1>
