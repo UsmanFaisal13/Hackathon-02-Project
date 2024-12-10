@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Footer = () => {
     return (
         <footer className="flex justify-center flex-col gap-8 w-full h-[555px] bg-white">
-            <div className="grid grid-cols-4 gap-2 bg-white">
+            <div className="grid lg:grid-cols-4 gap-2 bg-white">
                 <div className="flex justify-center items-center">
                     <span className="px-18 text-[#9f9f9f]">400 University Drive Suite 200 Coral <br /> Gables, <br />
                         FL 33134 USA</span>

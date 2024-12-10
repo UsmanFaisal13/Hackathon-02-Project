@@ -7,7 +7,9 @@ export default function Page() {
         <>
             <Header />
             <Hero name="Blog" />
-            <section></section>
+            <section>
+
+            </section>
 
 
 

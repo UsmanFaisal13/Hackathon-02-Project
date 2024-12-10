@@ -9,7 +9,7 @@ const Header = () => {
             <div></div>
             <div className="h-full flex justify-center items-center">
                 <nav>
-                    <ul className="flex gap-16 justify-center items-center font-medium text-base">
+                    <ul className="flex pt-8 md:pt-0 lg:pt-0 lg:gap-16 gap-4 justify-center items-center font-medium text-base">
                         <Link href={'/'}>Home</Link>
                         <Link href={'/shop'}>Shop</Link>
                         <Link href={'/'}>About</Link>
