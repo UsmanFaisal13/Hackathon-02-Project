@@ -1,5 +1,7 @@
 import Header from "../components/Header"
 import Image from "next/image"
+import Card from "../components/productCard"
+import Link from "next/link"
 
 
 export default function Page() {
@@ -7,8 +9,8 @@ export default function Page() {
         <>
             <Header />
 
-            <main className='flex flex-col gap-48 lg:gap-0 mb-80 lg:mb-32'>
-                <section className="h-[100px] w-full flex mt-4 flex-wrap items-center lg:gap-12 lg:px-32">
+            <main className='flex flex-col gap-48 lg:gap-0 mb-80 lg:mb-0'>
+                <section className="h-[100px] w-full flex mt-4 flex-wrap items-center lg:gap-12 gap-6 lg:px-32">
                     <h1 className="text-[#9f9f9f]">Home</h1>
                     <b>&gt;</b>
                     <h1 className="text-[#9f9f9f]">Shop</h1>
@@ -19,7 +21,7 @@ export default function Page() {
                     <h1>Asgaard Sofa</h1>
                 </section>
 
-                <section className="flex flex-wrap w-full h-[820px] lg:px-16 lg:py-8">
+                <section className="flex flex-wrap w-full h-[820px] mb-40 lg:mb-0 lg:px-16 lg:py-8">
                     <div className="lg:w-[76px] w-full h-[76px] lg:h-[416px] px-2 flex lg:flex-col items-center gap-4 mx-4">
                         <div className="w-[76px] h-[80px] flex items-center bg-[#FFF9E5]">
                             <Image src={'/asgaard.png'} width={83} height={55} alt={'sofa'}></Image>
@@ -155,8 +157,49 @@ export default function Page() {
                     </div>
 
                 </section>
-                <section></section>
-                <section></section>
+                <section className=' border-t border-[#d9d9d9] flex w-full h-[744px] bg-[#ffffff] flex-col items-center mb-[600px] lg:mb-16 lg:mt-32'>
+                    <div className="flex pt-16 gap-8 flex-wrap" >
+                        <h1 className='text-2xl'>Description</h1>
+                        <h1 className='text-2xl text-[#9f9f9f]'>Additional Information</h1>
+                        <h1 className='text-2xl text-[#9f9f9f]'>Reviews [5]</h1>
+                    </div>
+                    <div className="flex flex-col pt-16 gap-8" >
+
+                        <p className=' text-[#9f9f9f] lg:w-[1026px]'>Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.</p>
+                        <p className=' text-[#9f9f9f] lg:w-[1026px]'>Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
+                    </div>
+                    <div className="flex pt-16 gap-8 flex-wrap" >
+                        <div className="lg:w-[605px] h-[348px] flex items-center justify-center  bg-[#FFF9E5]">
+                            <Image src={'/cloud-sofa-3.png'} width={551} height={391} alt={'sofa'}></Image>
+                        </div>
+                        <div className="lg:w-[605px] h-[348px] flex items-center justify-center bg-[#FFF9E5]">
+                            <Image src={'/cloud-sofa-4.png'} width={551} height={391} alt={'sofa'}></Image>
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </section>
+                <section className='border-t border-[#d9d9d9] flex w-full h-[877px] bg-[#ffffff] flex-col items-center mb-[1000px] lg:mb-0'>
+                    <h1 className='font-medium text-4xl pt-16'>Related Products</h1>
+                    <div className='flex items-center justify-center gap-12 pt-16 flex-wrap'>
+                        <Link href={'/1'}><Card image='sofa_2.png' name='Trenton modular sofa_3' amount='Rs. 25,000.00' /></Link>
+                        <Link href={'/2'}><Card image='dinner-table.png' name='Granite dining table with dining chair' amount='Rs. 25,000.00' /></Link>
+                        <Link href={'/3'}><Card image='stool.png' name='Outdoor bar table and stool' amount='Rs. 25,000.00' /></Link>
+                        <Link href={'/4'}><Card image='mirror.png' name='Plain console with teak mirror' amount='Rs. 25,000.00' /></Link>
+
+
+
+
+                    </div>
+                    <Link href={'/'}><button className='relative lg:top-24 text-xl font-medium h-16 border-b-2 border-black'>View More</button></Link>
+
+
+                </section>
+
             </main >
 
 
