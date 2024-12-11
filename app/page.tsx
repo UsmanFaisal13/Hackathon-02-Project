@@ -48,7 +48,7 @@ export default function Home() {
             <Image src={'/granite-table.png'} width={500} height={500} className='p-0' alt='image' />
             <div className='flex flex-col gap-6 relative lg:bottom-40 bottom-20 pl-5 lg:pl-0 lg:left-10'>
               <h1 className='text-4xl font-medium'>Side table</h1>
-              <Link href={'/'}> <button className='border-b-2 border-b-neutral-950 h-12 font-medium text-2xl'>
+              <Link href={'/shop'}> <button className='border-b-2 border-b-neutral-950 h-12 font-medium text-2xl'>
                 View More</button></Link>
 
             </div>
@@ -57,7 +57,7 @@ export default function Home() {
             <Image src={'/cloud-sofa.png'} width={500} height={500} className='p-0' alt='image' />
             <div className='flex flex-col gap-6 relative lg:bottom-32 bottom-20 pl-5 lg:pl-0 lg:left-10'>
               <h1 className='text-4xl font-medium'>Side table</h1>
-              <Link href={'/'}> <button className='border-b-2 border-b-neutral-950 h-12 font-medium text-2xl'>
+              <Link href={'/shop'}> <button className='border-b-2 border-b-neutral-950 h-12 font-medium text-2xl'>
                 View More</button></Link>
 
             </div>
