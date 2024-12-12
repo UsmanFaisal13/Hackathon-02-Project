@@ -21,7 +21,7 @@ export default function Page() {
                     <h1>Asgaard Sofa</h1>
                 </section>
 
-                <section className="flex flex-wrap w-full h-[820px] mb-40 lg:mb-0 lg:px-16 lg:py-8">
+                <section className="flex flex-wrap w-full h-[820px] mb-80 lg:mb-0 lg:px-16 lg:py-8">
                     <div className="lg:w-[76px] w-full h-[76px] lg:h-[416px] lg:px-2 flex lg:flex-col items-center gap-4 lg:mx-4 my-4 lg:my-0">
                         <div className="w-[76px] h-[80px] flex items-center bg-[#FFF9E5]">
                             <Image src={'/asgaard.png'} width={83} height={55} alt={'sofa'}></Image>
