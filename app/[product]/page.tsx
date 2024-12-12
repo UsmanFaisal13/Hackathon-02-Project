@@ -73,7 +73,7 @@ export default function Page() {
                             </svg>
                             <h1 className="font-light text-[13px] text-[#9f9f9f]">5 Customer Review</h1>
                         </div>
-                        <div className="flex flex-col gap-2 w-[424px]">
+                        <div className="flex flex-col gap-2 lg:w-[424px]">
                             <p>Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound.
 
                             </p>
