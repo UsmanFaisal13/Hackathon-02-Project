@@ -12,7 +12,7 @@ export default function Home() {
             <ul className="flex lg:gap-16 gap-4 justify-center items-center font-medium text-base">
               <Link href={'/'}>Home</Link>
               <Link href={'/shop'}>Shop</Link>
-              <Link href={'/'}>About</Link>
+              <Link href={'/about'}>About</Link>
               <Link href={'/contact'}>Contact</Link>
             </ul>
           </nav>

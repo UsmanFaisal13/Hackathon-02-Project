@@ -12,7 +12,7 @@ const Header = () => {
                     <ul className="flex pt-8 md:pt-0 lg:pt-0 lg:gap-16 gap-4 justify-center items-center font-medium text-base">
                         <Link href={'/'}>Home</Link>
                         <Link href={'/shop'}>Shop</Link>
-                        <Link href={'/'}>About</Link>
+                        <Link href={'/about'}>About</Link>
                         <Link href={'/contact'}>Contact</Link>
                     </ul>
                 </nav>
