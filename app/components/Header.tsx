@@ -17,7 +17,7 @@ const Header = () => {
                     </ul>
                 </nav>
             </div>
-            <div className="h-full flex justify-center items-center">
+            <div className="h-full hidden lg:flex justify-center items-center">
                 <nav>
                     <ul className="flex gap-10 justify-center items-center">
                         <Link href={'/account'}><Image src={'/account.svg'} width={28} height={28} alt='icon'></Image></Link>

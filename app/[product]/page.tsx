@@ -2,9 +2,20 @@ import Header from "../components/Header"
 import Image from "next/image"
 import Card from "../components/productCard"
 import Link from "next/link"
+import { products } from "../productList"
 
 
-export default function Page() {
+export default function Page({ params }: { params: { product: string } }) {
+    const product = products.find(p => p.id === params.product);
+    if (!product) {
+        return <div>Product not found</div>
+    }
+
+
+
+
+
+
     return (
         <>
             <Header />
@@ -18,22 +29,22 @@ export default function Page() {
                     <svg width="2" height="37" viewBox="0 0 2 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="1" x2="1" y2="37" stroke="#9F9F9F" stroke-width="2" />
                     </svg>
-                    <h1>Asgaard Sofa</h1>
+                    <h1>{product.name}</h1>
                 </section>
 
                 <section className="flex flex-wrap w-full h-[820px] mb-40 lg:mb-0 lg:px-16 lg:py-8">
                     <div className="lg:w-[76px] w-full h-[76px] lg:h-[416px] px-2 flex lg:flex-col items-center gap-4 mx-4">
                         <div className="w-[76px] h-[80px] flex items-center bg-[#FFF9E5]">
-                            <Image src={'/asgaard.png'} width={83} height={55} alt={'sofa'}></Image>
+                            <Image src={`/${product.image}`} width={83} height={55} alt={'sofa'}></Image>
                         </div>
                         <div className="w-[76px] h-[80px] flex items-center bg-[#FFF9E5]">
-                            <Image src={'/asgaard.png'} width={83} height={55} alt={'sofa'}></Image>
+                            <Image src={`/${product.image}`} width={83} height={55} alt={'sofa'}></Image>
                         </div>
                         <div className="w-[76px] h-[80px] flex items-center bg-[#FFF9E5]">
-                            <Image src={'/asgaard.png'} width={83} height={55} alt={'sofa'}></Image>
+                            <Image src={`/${product.image}`} width={83} height={55} alt={'sofa'}></Image>
                         </div>
                         <div className="w-[76px] h-[80px] flex items-center bg-[#FFF9E5]">
-                            <Image src={'/asgaard.png'} width={83} height={55} alt={'sofa'}></Image>
+                            <Image src={`/${product.image}`} width={83} height={55} alt={'sofa'}></Image>
                         </div>
                     </div>
 
@@ -41,13 +52,13 @@ export default function Page() {
 
 
 
-                    <div className="w-[481px] h-[500px] flex items-center bg-[#FFF9E5]">
-                        <Image src={'/asgaard.png'} width={481} height={391} alt={'sofa'}></Image>
+                    <div className="w-[451px] h-[450px] flex items-center bg-[#FFF9E5]">
+                        <Image src={`/${product.image}`} width={481} height={391} alt={'sofa'}></Image>
                     </div>
                     <div className="flex flex-col gap-4 lg:px-8 py-4">
                         <div className="flex flex-col gap-2">
-                            <h1 className="text-[42px]">Asgaard Sofa</h1>
-                            <h1 className="text-2xl text-[#9f9f9f]">Rs. 250,000</h1>
+                            <h1 className="text-[32px]">{product.name}</h1>
+                            <h1 className="text-2xl text-[#9f9f9f]">{product.price}</h1>
                         </div>
                         <div className="flex items-center gap-6">
                             <div className="flex gap-3">

@@ -13,30 +13,30 @@ export default function Page() {
                     <form className="flex flex-col gap-8">
                         <div className="flex gap-40">
                             <h1 className="font-medium">First Name</h1>
-                            <h1 className="font-medium">Last Name</h1>
+                            <h1 className="font-medium relative right-8 lg:right-0">Last Name</h1>
                         </div>
-                        <div className="flex gap-8">
-                            <input type="text" className="border-[1px] border-[#9f9f9f] w-[211px] h-[75px] rounded-[10px]" />
-                            <input type="text" className="border-[1px] border-[#9f9f9f] w-[211px] h-[75px] rounded-[10px]" />
+                        <div className="flex lg:gap-8">
+                            <input type="text" className="border-[1px] border-[#9f9f9f] lg:w-[211px] h-[75px] rounded-[10px]" />
+                            <input type="text" className="border-[1px] border-[#9f9f9f] lg:w-[211px] h-[75px] rounded-[10px]" />
                         </div>
                         <label className="font-medium">Company Name</label>
-                        <input type="text" className="border-[1px] border-[#9f9f9f] w-[452px] h-[75px] rounded-[10px]" />
+                        <input type="text" className="border-[1px] border-[#9f9f9f] lg:w-[452px] h-[75px] rounded-[10px]" />
                         <label className="font-medium">Country / Region</label>
-                        <input type="text" className="border-[1px] border-[#9f9f9f] w-[452px] h-[75px] rounded-[10px]" />
+                        <input type="text" className="border-[1px] border-[#9f9f9f] lg:w-[452px] h-[75px] rounded-[10px]" />
                         <label className="font-medium">Street address</label>
-                        <input type="text" className="border-[1px] border-[#9f9f9f] w-[452px] h-[75px] rounded-[10px]" />
+                        <input type="text" className="border-[1px] border-[#9f9f9f] lg:w-[452px] h-[75px] rounded-[10px]" />
                         <label className="font-medium">Town / City</label>
-                        <input type="text" className="border-[1px] border-[#9f9f9f] w-[452px] h-[75px] rounded-[10px]" />
+                        <input type="text" className="border-[1px] border-[#9f9f9f] lg:w-[452px] h-[75px] rounded-[10px]" />
                         <label className="font-medium">Province</label>
-                        <input type="text" className="border-[1px] border-[#9f9f9f] w-[452px] h-[75px] rounded-[10px]" />
+                        <input type="text" className="border-[1px] border-[#9f9f9f] lg:w-[452px] h-[75px] rounded-[10px]" />
                         <label className="font-medium">ZIP code</label>
-                        <input type="text" className="border-[1px] border-[#9f9f9f] w-[452px] h-[75px] rounded-[10px]" />
+                        <input type="text" className="border-[1px] border-[#9f9f9f] lg:w-[452px] h-[75px] rounded-[10px]" />
                         <label className="font-medium">Phone</label>
-                        <input type="text" className="border-[1px] border-[#9f9f9f] w-[452px] h-[75px] rounded-[10px]" />
+                        <input type="text" className="border-[1px] border-[#9f9f9f] lg:w-[452px] h-[75px] rounded-[10px]" />
                         <label className="font-medium">Email address</label>
-                        <input type="text" className="border-[1px] border-[#9f9f9f] w-[452px] h-[75px] rounded-[10px]" />
+                        <input type="text" className="border-[1px] border-[#9f9f9f] lg:w-[452px] h-[75px] rounded-[10px]" />
 
-                        <input type="text" placeholder="Additional information" className=" p-6 my-8 border-[1px] border-[#9f9f9f] w-[452px] h-[75px] rounded-[10px]" />
+                        <input type="text" placeholder="Additional information" className=" p-6 my-8 border-[1px] border-[#9f9f9f] lg:w-[452px] h-[75px] rounded-[10px]" />
 
 
                     </form>

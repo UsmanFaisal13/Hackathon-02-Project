@@ -4,6 +4,7 @@ import Feature from "../components/Feature"
 import Card from "../components/productCard"
 import Link from "next/link"
 import PageNumber from "../components/PageNumber"
+import { products } from "../productList"
 
 export default function Page() {
     return (
@@ -58,12 +59,11 @@ export default function Page() {
 
                 </section>
                 <section className="grid lg:grid-cols-4 grid-flow-row gap-8 lg:px-32 py-4 items-center justify-center lg:justify-start">
-
-                    <Link href={'/1'}><Card image='sofa_2.png' name='Trenton modular sofa_3' amount='Rs. 25,000.00' /></Link>
-                    <Link href={'/2'}><Card image='dinner-table.png' name='Granite dining table with dining chair' amount='Rs. 25,000.00' /></Link>
-                    <Link href={'/3'}><Card image='stool.png' name='Outdoor bar table and stool' amount='Rs. 25,000.00' /></Link>
-                    <Link href={'/4'}><Card image='mirror.png' name='Plain console with teak mirror' amount='Rs. 25,000.00' /></Link>
-
+                    {products.map((product, index) => (
+                        <Link href={`/${product.id}`} key={index}>
+                            <Card image={product.image} name={product.name} amount={product.price} />
+                        </Link>
+                    ))}
 
                 </section>
                 <PageNumber />
