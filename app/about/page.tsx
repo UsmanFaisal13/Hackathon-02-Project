@@ -148,7 +148,7 @@ export default function Page() {
                         <h1 className="font-medium text-2xl px-4">Recent Posts</h1>
                         <div className="flex flex-col ">
 
-                            <div className="py-4 px-4 flex lg:flex-row flex-col items-center">
+                            <div className="py-4 px-4 flex items-center">
                                 <Image
                                     src="/blog-3.png"
                                     height={100}
@@ -159,13 +159,13 @@ export default function Page() {
                                 />
                                 <div className="flex flex-col">
 
-                                    <h1 className="w-[159px] text-sm">Going all-in with millennial design</h1>
+                                    <h1 className="lg:lg:w-[159px] text-sm">Going all-in with millennial design</h1>
                                     <h1 className="text-[#9f9f9f] text-xs py-1">03 Aug 2022</h1>
 
                                 </div>
 
                             </div>
-                            <div className="py-4 px-4 flex lg:flex-row flex-col items-center">
+                            <div className="py-4 px-4 flex  items-center">
                                 <Image
                                     src="/blog-3.png"
                                     height={100}
@@ -176,13 +176,13 @@ export default function Page() {
                                 />
                                 <div className="flex flex-col">
 
-                                    <h1 className="w-[159px] text-sm">Going all-in with millennial design</h1>
+                                    <h1 className="lg:w-[159px] text-sm">Going all-in with millennial design</h1>
                                     <h1 className="text-[#9f9f9f] text-xs py-1">03 Aug 2022</h1>
 
                                 </div>
 
                             </div>
-                            <div className="py-4 px-4 flex lg:flex-row flex-col items-center">
+                            <div className="py-4 px-4 flex items-center">
                                 <Image
                                     src="/blog-3.png"
                                     height={100}
@@ -193,13 +193,13 @@ export default function Page() {
                                 />
                                 <div className="flex flex-col">
 
-                                    <h1 className="w-[159px] text-sm">Going all-in with millennial design</h1>
+                                    <h1 className="lg:w-[159px] text-sm">Going all-in with millennial design</h1>
                                     <h1 className="text-[#9f9f9f] text-xs py-1">03 Aug 2022</h1>
 
                                 </div>
 
                             </div>
-                            <div className="py-4 px-4 flex lg:flex-row flex-col items-center">
+                            <div className="py-4 px-4 flex items-center">
                                 <Image
                                     src="/blog-3.png"
                                     height={100}
@@ -210,13 +210,13 @@ export default function Page() {
                                 />
                                 <div className="flex flex-col">
 
-                                    <h1 className="w-[159px] text-sm">Going all-in with millennial design</h1>
+                                    <h1 className="lg:w-[159px] text-sm">Going all-in with millennial design</h1>
                                     <h1 className="text-[#9f9f9f] text-xs py-1">03 Aug 2022</h1>
 
                                 </div>
 
                             </div>
-                            <div className="py-4 px-4 flex lg:flex-row flex-col items-center">
+                            <div className="py-4 px-4 flex  items-center">
                                 <Image
                                     src="/blog-3.png"
                                     height={100}
@@ -227,7 +227,7 @@ export default function Page() {
                                 />
                                 <div className="flex flex-col">
 
-                                    <h1 className="w-[159px] text-sm">Going all-in with millennial design</h1>
+                                    <h1 className="lg:w-[159px] text-sm">Going all-in with millennial design</h1>
                                     <h1 className="text-[#9f9f9f] text-xs py-1">03 Aug 2022</h1>
 
                                 </div>
