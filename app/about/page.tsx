@@ -10,7 +10,7 @@ export default function Page() {
         <>
             <Header />
             <Hero name="Blog" />
-            <main className="mb-96 lg:mb-0 flex flex-wrap">
+            <main className="mb-80 lg:mb-0 flex flex-wrap">
                 <section className="flex flex-col py-16 px-16 gap-8 ">
                     <div className='flex flex-col '>
                         <div className="lg:w-[817px] h-[500px] bg-[url('/blog-2.png')] bg-center bg-cover bg-no-repeat">
@@ -243,18 +243,18 @@ export default function Page() {
 
 
 
+                <PageNumber />
+
+
+
+
+
+                <Feature />
 
 
 
 
             </main >
-            <PageNumber />
-
-
-
-
-
-            <Feature />
 
 
 

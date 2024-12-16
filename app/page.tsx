@@ -1,13 +1,16 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Navbar from './components/Navbar';
 
 
 export default function Home() {
   return (
     <>
       <header className="grid lg:grid-cols-3 w-full h-[100px] bg-[#FBEBB5]">
-        <div></div>
-        <div className="h-full flex justify-center items-center">
+        <Navbar />
+        <div className='hidden lg:block'></div>
+
+        <div className="h-full hidden lg:flex justify-center items-center">
           <nav>
             <ul className="flex lg:gap-16 gap-4 justify-center items-center font-medium text-base">
               <Link href={'/'}>Home</Link>
@@ -17,7 +20,7 @@ export default function Home() {
             </ul>
           </nav>
         </div>
-        <div className="h-full flex justify-center items-center">
+        <div className="h-full hidden lg:flex justify-center items-center">
           <nav>
             <ul className="flex gap-10 justify-center items-center">
               <Link href={'/account'}><Image src={'/account.svg'} width={28} height={28} alt='image' /></Link>
