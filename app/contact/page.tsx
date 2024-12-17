@@ -10,7 +10,7 @@ export default function Page() {
             <main className="w-full mb-80 lg:mb-0">
                 <Hero name="Contact" />
                 <section className="flex flex-col gap-4 justify-center items-center">
-                    <h1 className='font-semibold text-4xl pt-16'>Get In Touch With Us</h1>
+                    <h1 className='font-semibold text-center lg:text-left text-4xl pt-16'>Get In Touch With Us</h1>
                     <p className='text-[#9f9f9f] font-medium text-center'>For More Information About Our Product & Services.
                         Please Feel Free To Drop Us <br /> An Email. Our Staff Always Be There To Help You Out.
                         Do Not Hesitate!</p>

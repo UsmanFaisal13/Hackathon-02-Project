@@ -39,7 +39,7 @@ export default function Home() {
         <section className='w-full h-[900px] flex-wrap bg-[#FBEBB5] flex justify-center lg:pl-14 pl-2 items-center'>
           <div className='flex flex-col gap-8 justtify-center items-start font-medium'>
             <h1 className='text-[64px] font-medium'>Rocket single <br />seater</h1>
-            <button className="border-b-2 border-b-neutral-950 h-8">Shop Now</button>
+            <button className="hover:text-[#555555] hover:border-b-[#555555] transition-all border-b-2 border-b-neutral-950 h-8">Shop Now</button>
           </div>
 
           <Image src={'/rocket.png'} width={853} height={1000} alt='image' />
@@ -51,7 +51,7 @@ export default function Home() {
             <Image src={'/granite-table.png'} width={500} height={500} className='p-0' alt='image' />
             <div className='flex flex-col gap-6 relative lg:bottom-40 bottom-20 pl-5 lg:pl-0 lg:left-10'>
               <h1 className='text-4xl font-medium'>Side table</h1>
-              <Link href={'/shop'}> <button className='border-b-2 border-b-neutral-950 h-12 font-medium text-2xl'>
+              <Link href={'/shop'}> <button className='hover:text-[#555555] hover:border-b-[#555555] transition-all border-b-2 border-b-neutral-950 h-12 font-medium text-2xl'>
                 View More</button></Link>
 
             </div>
@@ -60,7 +60,7 @@ export default function Home() {
             <Image src={'/cloud-sofa.png'} width={500} height={500} className='p-0' alt='image' />
             <div className='flex flex-col gap-6 relative lg:bottom-32 bottom-20 pl-5 lg:pl-0 lg:left-10'>
               <h1 className='text-4xl font-medium'>Side table</h1>
-              <Link href={'/shop'}> <button className='border-b-2 border-b-neutral-950 h-12 font-medium text-2xl'>
+              <Link href={'/shop'}> <button className='hover:text-[#555555] hover:border-b-[#555555] transition-all border-b-2 border-b-neutral-950 h-12 font-medium text-2xl'>
                 View More</button></Link>
 
             </div>
@@ -111,7 +111,7 @@ export default function Home() {
             </div>
 
           </div>
-          <Link href={'/'}><button className='relative lg:top-24 text-xl font-medium h-16 border-b-2 border-black'>View More</button></Link>
+          <Link href={'/shop'}><button className='hover:text-[#555555] hover:border-b-[#555555] transition-all relative lg:top-24 text-xl font-medium h-16 border-b-2 border-black'>View More</button></Link>
 
 
         </section>
@@ -120,7 +120,7 @@ export default function Home() {
           <div className='flex flex-col gap-6 items-center justify-center'>
             <h1 className='text-2xl font-medium'>New Arrivals</h1>
             <h1 className='text-5xl font-bold pb-8'>Asgaard sofa</h1>
-            <Link href={'/'}><button className='border-2 border-black w-64 h-16 font-medium text-xl'>Order Now</button></Link>
+            <Link href={'/shop'}><button className='hover:text-[#555555] hover:border-b-[#555555] transition-all border-2 border-black w-64 h-16 font-medium text-xl'>Order Now</button></Link>
           </div>
 
         </section>
@@ -132,31 +132,31 @@ export default function Home() {
             <div className='flex flex-col w-72 h-96 justify-center items-center'>
               <Image src={'/blog-1.png'} width={400} height={400} alt='blog' />
               <h1 className='pt-8'>Going all-in with millennial design</h1>
-              <Link href={'/'}><button className='text-2xl font-medium border-b-2 border-black h-12'>Read More</button></Link>
+              <Link href={'/about'}><button className='hover:text-[#555555] hover:border-b-[#555555] transition-all text-2xl font-medium border-b-2 border-black h-12'>Read More</button></Link>
               <Image src={'/time.png'} width={200} height={100} className='pt-4' alt='blog' />
             </div>
             <div className='flex flex-col w-72 h-96 justify-center items-center'>
               <Image src={'/blog-2.png'} width={400} height={400} alt='blog' />
               <h1 className='pt-8'>Going all-in with millennial design</h1>
-              <Link href={'/'}><button className='text-2xl font-medium border-b-2 border-black h-12'>Read More</button></Link>
+              <Link href={'/about'}><button className='hover:text-[#555555] hover:border-b-[#555555] transition-all text-2xl font-medium border-b-2 border-black h-12'>Read More</button></Link>
               <Image src={'/time.png'} width={200} height={100} className='pt-4' alt='blog' />
             </div>
             <div className='flex flex-col w-72 h-96 justify-center items-center'>
               <Image src={'/blog-3.png'} width={400} height={400} alt='blog' />
               <h1 className='pt-8'>Going all-in with millennial design</h1>
-              <Link href={'/'}><button className='text-2xl font-medium border-b-2 border-black h-12'>Read More</button></Link>
+              <Link href={'/about'}><button className='hover:text-[#555555] hover:border-b-[#555555] transition-all text-2xl font-medium border-b-2 border-black h-12'>Read More</button></Link>
               <Image src={'/time.png'} width={200} height={100} className='pt-4' alt='icon' />
             </div>
 
           </div>
-          <Link href={'/'}><button className='relative top-32 text-xl font-medium h-16 border-b-2 border-black'>View All Post</button></Link>
+          <Link href={'/'}><button className='hover:text-[#555555] hover:border-b-[#555555] transition-all relative top-32 text-xl font-medium h-16 border-b-2 border-black'>View All Post</button></Link>
 
 
         </section>
         <section className='flex flex-col w-full h-[450px] justify-center items-center gap-8 bg-bg-pattern bg-cover bg-center bg-no-repeat'>
           <h1 className='font-bold text-6xl'>Our Instagram</h1>
           <p className=' text-xl'>Follow our store on Instagram</p>
-          <Link href={'/'}><button className='text-xl w-64 h-16 rounded-[50px] drop-shadow-md bg-[#FAF4F4]'>Follow Us</button></Link>
+          <Link href={'/'}><button className='hover:text-[#555555] hover:border-b-[#555555] transition-all text-xl w-64 h-16 rounded-[50px] drop-shadow-md bg-[#FAF4F4]'>Follow Us</button></Link>
 
         </section>
       </main>
