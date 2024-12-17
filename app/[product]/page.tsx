@@ -10,12 +10,6 @@ export default function Page({ params }: { params: { product: string } }) {
     if (!product) {
         return <div>Product not found</div>
     }
-
-
-
-
-
-
     return (
         <>
             <Header />

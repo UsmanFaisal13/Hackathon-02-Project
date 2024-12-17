@@ -34,9 +34,9 @@ export default function Home() {
         </div>
 
       </header>
-      <main className='flex flex-col gap-48 lg:gap-0 mb-80 lg:mb-0'>
+      <main className='flex flex-col  lg:gap-0 mb-80 lg:mb-0'>
 
-        <section className='w-full h-[900px] flex-wrap bg-[#FBEBB5] flex justify-center lg:pl-14 pl-2 items-center'>
+        <section className='w-full h-[900px]  flex-wrap bg-[#FBEBB5] flex justify-center lg:pl-14 pl-2 items-center'>
           <div className='flex flex-col gap-8 justtify-center items-start font-medium'>
             <h1 className='text-[64px] font-medium'>Rocket single <br />seater</h1>
             <button className="hover:text-[#555555] hover:border-b-[#555555] transition-all border-b-2 border-b-neutral-950 h-8">Shop Now</button>
@@ -46,7 +46,7 @@ export default function Home() {
 
 
         </section>
-        <section className='flex w-full lg:h-[672px] h-[900px] flex-wrap bg-[#f4f4f4] justify-center items-center lg:gap-32'>
+        <section className='flex w-full lg:h-[672px] h-[900px]  flex-wrap bg-[#f4f4f4] justify-center items-center lg:gap-32'>
           <div className='w-[500px] h-[500px] flex flex-col'>
             <Image src={'/granite-table.png'} width={500} height={500} className='p-0' alt='image' />
             <div className='flex flex-col gap-6 relative lg:bottom-40 bottom-20 pl-5 lg:pl-0 lg:left-10'>
@@ -68,9 +68,9 @@ export default function Home() {
 
 
         </section>
-        <section className='flex w-full h-[877px] bg-[#ffffff] flex-col items-center mb-[1000px] lg:mb-0'>
+        <section className='flex w-full h-[877px] bg-[#ffffff] flex-col items-center  mb-[1000px] lg:mb-0'>
           <h1 className='font-medium text-4xl pt-16 pb-8'>Top Picks For You</h1>
-          <p className='text-[#9f9f9f] font-medium'>Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</p>
+          <p className='text-[#9f9f9f] font-medium text-center'>Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</p>
           <div className='flex items-center justify-center gap-12 pt-16 flex-wrap'>
             <div className='flex flex-col w-72 h-96 justify-center'>
               <div className='w-[300px] h-[300px] flex justify-center items-center'>
@@ -115,11 +115,11 @@ export default function Home() {
 
 
         </section>
-        <section className='flex w-full h-[777px] bg-[#FFF9E5] justify-center lg:gap-32 flex-wrap'>
+        <section className='flex w-full h-[777px] bg-[#FFF9E5] justify-center lg:gap-32 flex-wrap mt-48 lg:mt-0'>
           <Image src={'/asgaard.png'} width={700} height={700} alt='image' />
           <div className='flex flex-col gap-6 items-center justify-center'>
             <h1 className='text-2xl font-medium'>New Arrivals</h1>
-            <h1 className='text-5xl font-bold pb-8'>Asgaard sofa</h1>
+            <h1 className='text-5xl font-bold pb-8 text-center'>Asgaard sofa</h1>
             <Link href={'/shop'}><button className='hover:text-[#555555] hover:border-b-[#555555] transition-all border-2 border-black w-64 h-16 font-medium text-xl'>Order Now</button></Link>
           </div>
 
@@ -127,7 +127,7 @@ export default function Home() {
 
         <section className='flex flex-col w-full h-[844px] bg-[#FFFfff] items-center mb-[800px] lg:mb-0'>
           <h1 className='font-medium text-4xl pt-16 pb-8'>Our Blogs</h1>
-          <p className='text-[#9f9f9f] font-medium'>Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</p>
+          <p className='text-[#9f9f9f] font-medium text-center'>Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</p>
           <div className='flex justify-center lg:gap-12 gap-20 pt-16 items-center flex-wrap'>
             <div className='flex flex-col w-72 h-96 justify-center items-center'>
               <Image src={'/blog-1.png'} width={400} height={400} alt='blog' />
@@ -153,8 +153,8 @@ export default function Home() {
 
 
         </section>
-        <section className='flex flex-col w-full h-[450px] justify-center items-center gap-8 bg-bg-pattern bg-cover bg-center bg-no-repeat'>
-          <h1 className='font-bold text-6xl text-center'>Our Instagram</h1>
+        <section className='flex flex-col w-full h-[450px] justify-center items-center gap-8 bg-bg-pattern bg-cover bg-center bg-no-repeat mt-48 lg:mt-0'>
+          <h1 className='font-bold lg:text-6xl text-5xl text-center'>Our Instagram</h1>
           <p className=' text-xl'>Follow our store on Instagram</p>
           <Link href={'/'}><button className='hover:text-[#555555] hover:border-b-[#555555] transition-all text-xl w-64 h-16 rounded-[50px] drop-shadow-md bg-[#FAF4F4]'>Follow Us</button></Link>
 
