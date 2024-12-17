@@ -7,7 +7,7 @@ export default function Page() {
         <>
             <Header />
             <Hero name="Checkout" />
-            <section className="w-full px-4 py-8 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-32">
+            <section className="w-full lg:px-4 py-8 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-32">
                 <div className="flex flex-col flex-wrap">
                     <h1 className="font-semibold text-4xl my-16">Billing details</h1>
                     <form className="flex flex-col gap-8">
