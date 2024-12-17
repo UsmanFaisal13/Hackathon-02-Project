@@ -37,7 +37,7 @@ export default function Page() {
                     </div>
                     <div className="flex justify-center items-center lg:gap-8 lg:px-16">
                         <div className="flex gap-4 items-center">
-                            <h1 className="text-xl">Show</h1>
+                            <h1 className="lg:text-xl">Show</h1>
                             <input
                                 type="number"
                                 className="w-14 h-14 text-center text-[#9f9f9f]"
@@ -46,7 +46,7 @@ export default function Page() {
                         </div>
 
                         <div className="flex lg:gap-8 md:gap-8 items-center">
-                            <h1 className="text-xl">Sort By</h1>
+                            <h1 className="lg:text-xl">Sort By</h1>
                             <input
 
                                 className="w-[188px] h-14 text-center text-[#9f9f9f]"
