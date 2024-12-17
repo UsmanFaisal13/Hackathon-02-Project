@@ -154,7 +154,7 @@ export default function Home() {
 
         </section>
         <section className='flex flex-col w-full h-[450px] justify-center items-center gap-8 bg-bg-pattern bg-cover bg-center bg-no-repeat'>
-          <h1 className='font-bold text-6xl'>Our Instagram</h1>
+          <h1 className='font-bold text-6xl text-center'>Our Instagram</h1>
           <p className=' text-xl'>Follow our store on Instagram</p>
           <Link href={'/'}><button className='hover:text-[#555555] hover:border-b-[#555555] transition-all text-xl w-64 h-16 rounded-[50px] drop-shadow-md bg-[#FAF4F4]'>Follow Us</button></Link>
 
