@@ -28,7 +28,7 @@ export default function Page() {
                                 <tr className="block md:table-row">
                                     <td className="py-4 px-4 lg:flex items-center  table-cell">
                                         <Image
-                                            src="/asgaard.png"
+                                            src="/products/asgaard.png"
                                             height={100}
                                             width={100}
                                             alt="Asgaard sofa"
