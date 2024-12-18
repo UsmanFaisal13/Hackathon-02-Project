@@ -42,13 +42,13 @@ export default function Home() {
             <button className="hover:text-[#555555] hover:border-b-[#555555] transition-all border-b-2 border-b-neutral-950 h-8">Shop Now</button>
           </div>
 
-          <Image src={'/rocket.png'} width={853} height={1000} alt='image' />
+          <Image src={'/products/rocket.png'} width={853} height={1000} alt='image' />
 
 
         </section>
         <section className='flex w-full lg:h-[672px] h-[900px]  flex-wrap bg-[#f4f4f4] justify-center items-center lg:gap-32'>
           <div className='w-[500px] h-[500px] flex flex-col'>
-            <Image src={'/granite-table.png'} width={500} height={500} className='p-0' alt='image' />
+            <Image src={'/products/granite-table.png'} width={500} height={500} className='p-0' alt='image' />
             <div className='flex flex-col gap-6 relative lg:bottom-40 bottom-20 pl-5 lg:pl-0 lg:left-10'>
               <h1 className='text-4xl font-medium'>Side table</h1>
               <Link href={'/shop'}> <button className='hover:text-[#555555] hover:border-b-[#555555] transition-all border-b-2 border-b-neutral-950 h-12 font-medium text-2xl'>
@@ -57,7 +57,7 @@ export default function Home() {
             </div>
           </div>
           <div className='w-[500px] h-[500px] flex flex-col'>
-            <Image src={'/cloud-sofa.png'} width={500} height={500} className='p-0' alt='image' />
+            <Image src={'/products/cloud-sofa.png'} width={500} height={500} className='p-0' alt='image' />
             <div className='flex flex-col gap-6 relative lg:bottom-32 bottom-20 pl-5 lg:pl-0 lg:left-10'>
               <h1 className='text-4xl font-medium'>Side table</h1>
               <Link href={'/shop'}> <button className='hover:text-[#555555] hover:border-b-[#555555] transition-all border-b-2 border-b-neutral-950 h-12 font-medium text-2xl'>
@@ -74,7 +74,7 @@ export default function Home() {
           <div className='flex items-center justify-center gap-12 pt-16 flex-wrap'>
             <div className='flex flex-col w-72 h-96 justify-center'>
               <div className='w-[300px] h-[300px] flex justify-center items-center'>
-                <Image src={'/sofa_2.png'} width={400} height={400} alt='image' />
+                <Image src={'/products/sofa_2.png'} width={400} height={400} alt='image' />
               </div>
 
               <h1>Trenton modular sofa_3</h1>
@@ -92,7 +92,7 @@ export default function Home() {
             </div>
             <div className='flex flex-col w-72 h-96 justify-center '>
               <div className='w-[300px] h-[300px] flex justify-center items-center'>
-                <Image src={'/stool.png'} width={400} height={400} alt='image' />
+                <Image src={'/products/stool.png'} width={400} height={400} alt='image' />
               </div>
               <h1>Outdoor bar table and stool</h1>
               <h1 className='font-medium text-2xl pt-2'>Rs. 25,000.00</h1>
@@ -101,7 +101,7 @@ export default function Home() {
             </div>
             <div className='flex flex-col w-72 h-96 justify-center'>
               <div className='w-[300px] h-[300px] flex justify-center items-center'>
-                <Image src={'/mirror.png'} width={400} height={400} alt='image' />
+                <Image src={'/products/mirror.png'} width={400} height={400} alt='image' />
               </div>
               <h1>Plain console with teak mirror</h1>
               <h1 className='font-medium text-2xl pt-2'>Rs. 25,000.00</h1>
@@ -116,7 +116,7 @@ export default function Home() {
 
         </section>
         <section className='flex w-full h-[777px] bg-[#FFF9E5] justify-center lg:gap-32 flex-wrap mt-48 lg:mt-0'>
-          <Image src={'/asgaard.png'} width={700} height={700} alt='image' />
+          <Image src={'/products/asgaard.png'} width={700} height={700} alt='image' />
           <div className='flex flex-col gap-6 items-center justify-center'>
             <h1 className='text-2xl font-medium'>New Arrivals</h1>
             <h1 className='text-5xl font-bold pb-8 text-center'>Asgaard sofa</h1>
@@ -133,19 +133,19 @@ export default function Home() {
               <Image src={'/blog-1.png'} width={400} height={400} alt='blog' />
               <h1 className='pt-8'>Going all-in with millennial design</h1>
               <Link href={'/about'}><button className='hover:text-[#555555] hover:border-b-[#555555] transition-all text-2xl font-medium border-b-2 border-black h-12'>Read More</button></Link>
-              <Image src={'/time.png'} width={200} height={100} className='pt-4' alt='blog' />
+              <Image src={'/icons/time.png'} width={200} height={100} className='pt-4' alt='blog' />
             </div>
             <div className='flex flex-col w-72 h-96 justify-center items-center'>
               <Image src={'/blog-2.png'} width={400} height={400} alt='blog' />
               <h1 className='pt-8'>Going all-in with millennial design</h1>
               <Link href={'/about'}><button className='hover:text-[#555555] hover:border-b-[#555555] transition-all text-2xl font-medium border-b-2 border-black h-12'>Read More</button></Link>
-              <Image src={'/time.png'} width={200} height={100} className='pt-4' alt='blog' />
+              <Image src={'/icons/time.png'} width={200} height={100} className='pt-4' alt='blog' />
             </div>
             <div className='flex flex-col w-72 h-96 justify-center items-center'>
               <Image src={'/blog-3.png'} width={400} height={400} alt='blog' />
               <h1 className='pt-8'>Going all-in with millennial design</h1>
               <Link href={'/about'}><button className='hover:text-[#555555] hover:border-b-[#555555] transition-all text-2xl font-medium border-b-2 border-black h-12'>Read More</button></Link>
-              <Image src={'/time.png'} width={200} height={100} className='pt-4' alt='icon' />
+              <Image src={'/icons/time.png'} width={200} height={100} className='pt-4' alt='icon' />
             </div>
 
           </div>
