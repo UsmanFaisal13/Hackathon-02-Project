@@ -7,8 +7,8 @@ const Navbar = () => {
     const [isOpen, setOpen] = useState(false);
     return (
         <>
-            {isOpen}
-            <div className={`mx-4  flex flex-col gap-2 lg:hidden justify-center items-end ${isOpen ? `z-50` : `z-40`}`} onClick={() => { setOpen(!isOpen) }}>
+
+            <div className={`mx-4  flex flex-col gap-2 lg:hidden justify-center items-end ${isOpen ? `z-50` : `z-40`}`} onClick={() => setOpen(!isOpen)}>
 
                 <div className={`h-[3px] w-6 bg-black rounded-3xl ${isOpen ? `rotate-45 translate-y-2` : `block`} transition-all`} ></div>
                 <div className={`h-[3px] w-6 bg-black rounded-3xl ${isOpen ? `-rotate-45 translate-y-2 relative bottom-[11px]` : `block`} transition-all`}></div>
