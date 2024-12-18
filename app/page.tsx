@@ -83,7 +83,7 @@ export default function Home() {
 
             </div>
             <div className='flex flex-col w-72 h-96 justify-center '>
-              <div className='w-[300px] h-[300px] flex justify-center items-center'> <Image src={'/dinner-table.png'} alt='image' width={300} height={300} /></div>
+              <div className='w-[300px] h-[300px] flex justify-center items-center'> <Image src={'/products/dinner-table.png'} alt='image' width={300} height={300} /></div>
 
               <h1 >Granite dining table with dining chair</h1>
               <h1 className='font-medium text-2xl pt-2'>Rs. 25,000.00</h1>
