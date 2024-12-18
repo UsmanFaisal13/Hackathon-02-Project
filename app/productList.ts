@@ -29,6 +29,72 @@ export const products = [
         price: "Rs. 15,000.00",
         image: "Grain coffee table.png",
     },
+    // {
+    //     id: "5",
+    //     name: "Grain coffee table",
+    //     price: "Rs. 15,000.00",
+    //     image: "Kent coffee table 1.png",
+    // },
+    // {
+    //     id: "5",
+    //     name: "Grain coffee table",
+    //     price: "Rs. 15,000.00",
+    //     image: "Grain coffee table.png",
+    // },
+    // {
+    //     id: "5",
+    //     name: "Grain coffee table",
+    //     price: "Rs. 15,000.00",
+    //     image: "Grain coffee table.png",
+    // },
+    // {
+    //     id: "5",
+    //     name: "Grain coffee table",
+    //     price: "Rs. 15,000.00",
+    //     image: "Grain coffee table.png",
+    // },
+    // {
+    //     id: "5",
+    //     name: "Grain coffee table",
+    //     price: "Rs. 15,000.00",
+    //     image: "Grain coffee table.png",
+    // },
+    // {
+    //     id: "5",
+    //     name: "Grain coffee table",
+    //     price: "Rs. 15,000.00",
+    //     image: "Grain coffee table.png",
+    // },
+    // {
+    //     id: "5",
+    //     name: "Grain coffee table",
+    //     price: "Rs. 15,000.00",
+    //     image: "Grain coffee table.png",
+    // },
+    // {
+    //     id: "5",
+    //     name: "Grain coffee table",
+    //     price: "Rs. 15,000.00",
+    //     image: "Grain coffee table.png",
+    // },
+    // {
+    //     id: "5",
+    //     name: "Grain coffee table",
+    //     price: "Rs. 15,000.00",
+    //     image: "Grain coffee table.png",
+    // },
+    // {
+    //     id: "5",
+    //     name: "Grain coffee table",
+    //     price: "Rs. 15,000.00",
+    //     image: "Grain coffee table.png",
+    // },
+    // {
+    //     id: "5",
+    //     name: "Grain coffee table",
+    //     price: "Rs. 15,000.00",
+    //     image: "Grain coffee table.png",
+    // },
 
 
 

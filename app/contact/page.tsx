@@ -17,7 +17,7 @@ export default function Page() {
                     <div className="pt-16 grid lg:grid-cols-2">
                         <div className="flex flex-col gap-12 pt-8 lg:items-start items-center">
                             <div className="flex gap-6">
-                                <Image src={'/map.svg'} width={22} height={28.18
+                                <Image src={'/icons/map.svg'} width={22} height={28.18
                                 } alt={'map'} className="mb-16"></Image>
                                 <div className="flex flex-col">
                                     <h1 className="text-2xl font-medium py-2">Address</h1>
@@ -26,7 +26,7 @@ export default function Page() {
 
                             </div>
                             <div className="flex gap-6">
-                                <Image src={'/phone.svg'} width={22} height={28.18
+                                <Image src={'/icons/phone.svg'} width={22} height={28.18
                                 } alt={'map'} className="mb-16"></Image>
                                 <div className="flex flex-col">
                                     <h1 className="text-2xl font-medium py-2">Phone</h1>
@@ -36,7 +36,7 @@ export default function Page() {
 
                             </div>
                             <div className="flex gap-6">
-                                <Image src={'/clock_2.svg'} width={22} height={28.18
+                                <Image src={'/icons/clock_2.svg'} width={22} height={28.18
                                 } alt={'map'} className="mb-16"></Image>
                                 <div className="flex flex-col">
                                     <h1 className="text-2xl font-medium py-2">Working Time</h1>

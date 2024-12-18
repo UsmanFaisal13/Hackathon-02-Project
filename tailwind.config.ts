@@ -17,7 +17,7 @@ const config: Config = {
         poppins: ['var(--font-poppins)'],
       },
       backgroundImage: {
-        'bg-pattern': "url('/bg.png')",
+        'bg-pattern': "url('/images/bg.png')",
 
       }
 

@@ -22,10 +22,10 @@ const Navbar = () => {
                     <Link href={'/contact'}>Contact</Link>
                 </div>
                 <div className="flex gap-16 items-center justify-center">
-                    <Link href={'/account'}><Image src={'/account.svg'} width={28} height={28} alt='icon'></Image></Link>
-                    <Link href={'/'}><Image src={'/search.svg'} width={28} height={28} alt='icon'></Image></Link>
-                    <Link href={'/'}><Image src={'/like.svg'} width={28} height={28} alt='icon'></Image></Link>
-                    <Link href={'/cart'}><Image src={'/cart.svg'} width={28} height={28} alt='icon'></Image></Link>
+                    <Link href={'/account'}><Image src={'/icons/account.svg'} width={28} height={28} alt='icon'></Image></Link>
+                    <Link href={'/'}><Image src={'/icons/search.svg'} width={28} height={28} alt='icon'></Image></Link>
+                    <Link href={'/'}><Image src={'/icons/like.svg'} width={28} height={28} alt='icon'></Image></Link>
+                    <Link href={'/cart'}><Image src={'/icons/cart.svg'} width={28} height={28} alt='icon'></Image></Link>
                 </div>
             </nav>
 

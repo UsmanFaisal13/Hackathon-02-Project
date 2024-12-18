@@ -6,7 +6,7 @@ const Hero = (pages: {
 }
 ) => {
     return (
-        <section className='w-full h-[316px] bg-[#FBEBB5] flex flex-col justify-center items-center bg-[url(/banner.png)] bg-cover bg-no-repeat bg-opacity-50'>
+        <section className='w-full h-[316px] bg-[#FBEBB5] flex flex-col justify-center items-center bg-[url(/images/banner.png)] bg-cover bg-no-repeat bg-opacity-50'>
             <Image src={'/logo.png'} width={77} height={77} alt='logo'></Image>
             <h1 className='text-5xl font-medium'>{pages.name}</h1>
 

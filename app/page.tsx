@@ -23,10 +23,10 @@ export default function Home() {
         <div className="h-full hidden lg:flex justify-center items-center">
           <nav>
             <ul className="flex gap-10 justify-center items-center">
-              <Link href={'/account'}><Image src={'/account.svg'} width={28} height={28} alt='image' /></Link>
-              <Link href={'/'}><Image src={'/search.svg'} width={28} height={28} alt='image' /></Link>
-              <Link href={'/'}><Image src={'/like.svg'} width={28} height={28} alt='image' /></Link>
-              <Link href={'/cart'}><Image src={'/cart.svg'} width={28} height={28} alt='image' /></Link>
+              <Link href={'/account'}><Image src={'/icons/account.svg'} width={28} height={28} alt='image' /></Link>
+              <Link href={'/'}><Image src={'/icons/search.svg'} width={28} height={28} alt='image' /></Link>
+              <Link href={'/'}><Image src={'/icons/like.svg'} width={28} height={28} alt='image' /></Link>
+              <Link href={'/cart'}><Image src={'/icons/cart.svg'} width={28} height={28} alt='image' /></Link>
 
             </ul>
           </nav>
