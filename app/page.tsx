@@ -38,15 +38,15 @@ export default function Home() {
 
         <section className='w-full h-[900px]  flex-wrap bg-[#FBEBB5] flex justify-center lg:pl-14 pl-2 items-center'>
           <div className='flex flex-col gap-8 justtify-center items-start font-medium'>
-            <h1 className='text-[64px] font-medium'>Rocket single <br />seater</h1>
-            <button className="hover:text-[#555555] hover:border-b-[#555555] transition-all border-b-2 border-b-neutral-950 h-8">Shop Now</button>
+            <h1 className='text-[64px]  font-medium'>Rocket single <br />seater</h1>
+            <button className="hover:tex t-[#555555] hover:border-b-[#555555] transition-all border-b-2 border-b-neutral-950 h-8">Shop Now</button>
           </div>
 
           <Image src={'/products/rocket.png'} width={853} height={1000} alt='image' />
 
 
         </section>
-        <section className='flex w-full lg:h-[672px] h-[900px]  flex-wrap bg-[#f4f4f4] justify-center items-center lg:gap-32'>
+        <section className='flex w-full lg:h-[672px] h-[900px]   flex-wrap bg-[#f4f4f4] justify-center items-center lg:gap-32 '>
           <div className='w-[500px] h-[500px] flex flex-col'>
             <Image src={'/products/granite-table.png'} width={500} height={500} className='p-0' alt='image' />
             <div className='flex flex-col gap-6 relative lg:bottom-40 bottom-20 pl-5 lg:pl-0 lg:left-10'>

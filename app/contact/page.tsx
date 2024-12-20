@@ -27,7 +27,7 @@ export default function Page() {
                             </div>
                             <div className="flex gap-6">
                                 <Image src={'/icons/phone.svg'} width={22} height={28.18
-                                } alt={'map'} className="mb-16"></Image>
+                                } alt={'map'} className="mb-12"></Image>
                                 <div className="flex flex-col">
                                     <h1 className="text-2xl font-medium py-2">Phone</h1>
                                     <p>Mobile: +(84) 546-6789 <br />
@@ -37,7 +37,7 @@ export default function Page() {
                             </div>
                             <div className="flex gap-6">
                                 <Image src={'/icons/clock_2.svg'} width={22} height={28.18
-                                } alt={'map'} className="mb-16"></Image>
+                                } alt={'map'} className="mb-12"></Image>
                                 <div className="flex flex-col">
                                     <h1 className="text-2xl font-medium py-2">Working Time</h1>
                                     <p>Monday-Friday: 9:00 - 22:00 <br />
@@ -45,9 +45,6 @@ export default function Page() {
                                 </div>
 
                             </div>
-
-
-
                         </div>
                         <div className="flex flex-col justify-center items-center">
                             <form className="lg:w-full flex flex-col gap-4">
@@ -59,9 +56,6 @@ export default function Page() {
                                 <input type="text" className="border-2 border-[#9f9f9f] lg:w-[527px] w-80 h-[75px] rounded-[10px]" />
                                 <h1 className="pt-8 font-medium">Message</h1>
                                 <input type="text" className="border-2 border-[#9f9f9f] lg:w-[527px] w-80 h-[120px] rounded-[10px]" />
-
-
-
                                 <button className='my-16 text-xl w-[215px] h-12 rounded-[15px] border-[1px] border-black'>Submit</button>
 
 

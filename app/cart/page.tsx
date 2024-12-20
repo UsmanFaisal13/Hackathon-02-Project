@@ -16,7 +16,6 @@ export default function Page() {
                         <table className="w-full text-left block md:table">
                             <thead className="block md:table-header-group ">
                                 <tr className="bg-[#FFF9E5]  block md:table-row">
-
                                     <th className="py-2  lg:text-center font-medium  block md:table-cell">Product</th>
                                     <th className="py-4 font-medium block md:table-cell">Price</th>
                                     <th className="py-2 font-medium block md:table-cell">Quantity</th>
